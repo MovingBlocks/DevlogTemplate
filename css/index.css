@@ -1,0 +1,47 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.gh-icon {
+	top: -50px;
+	margin-left: 20px;
+}
+
+.collapsible {
+	margin-top: -20px;
+	clear: both;
+}
+
+.collapsible-body {
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.daywise-list-container {
+	width: 100%;
+}
+
+.daywise-list-container tr > *:nth-child(1) {
+	width:15%;
+}
+
+.details li {
+	list-style-type: circle;
+}
+
+.daywise-list-container td {
+	vertical-align: top;
+}
+
+.gh-pr:before {
+	font: normal normal normal 16px/1 octicons;
+	content: '\f009';
+	padding-right: .2em;
+}
+
+.gh-issue:before {
+	font: normal normal normal 16px/1 octicons;
+	content: '\f026';
+	padding-right: .2em;
+}

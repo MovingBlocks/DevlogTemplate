@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <meta charset="UTF-8">
+      <title> {{ site.title }} </title>
+
+        <!--Import custom stylesheet -->
+    <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
+    <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+
+    <meta name="author" content="{{ page.name }}" />
+
+    <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Import Github Octicons -->
+      <link rel="stylesheet" href="css/octicons/octicons.css">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <header>
+        <div class="green darken-2 white-text z-depth-2">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <h3>
+                    <b> {{ site.title }} </b>
+                  </h3>
+                  <h6 style="margin-bottom: 15px">
+                    {{ site.description }}
+                  </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+          <div class="container">
+
+            <a class="gh-icon red lighten-1 btn-floating right btn-large z-depth-2"
+              href="{{ site.gh_commits }}" target="_blank">
+              <i class="mega-octicon octicon-git-commit"></i>
+            </a>
+
+            <a class="gh-icon red lighten-1 btn-floating right btn-large z-depth-2"
+              href="{{ site.gh_prs}}" target="_blank">
+              <i class="mega-octicon octicon-git-pull-request"></i>
+            </a>
+
+            <a class="gh-icon red lighten-1 btn-floating right btn-large z-depth-2"
+              href="{{ site.gh_issues}}" target="_blank">
+              <i class="mega-octicon octicon-issue-opened"></i>
+            </a>
+
+            <a class="gh-icon red lighten-1 btn-floating right btn-large z-depth-2"
+              href="{{ site.gh_project }}" target="_blank">
+              <i class="mega-octicon octicon-repo-clone"></i>
+            </a>
+
+
+            <!-- AND THE DEV LOG STARTS FROM HERE -->
+
+            {{ content }}
+
+          </div>
+      </main>
+    </body>
+  </html>

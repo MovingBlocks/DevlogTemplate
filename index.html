@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<!-- AND THE DEV LOG STARTS FROM HERE -->
+
+{% assign flag = true%}
+<ul class="collapsible popout" data-collapsible="expandable">
+
+{% for category in site.categories reversed%}
+  <li>
+  <div class="collapsible-header
+  {% if flag %}
+      active
+      {% assign flag = false %}
+  {% endif %}
+   waves-effect waves-light teal darken-2 white-text">
+    <i class="mega-octicon octicon-calendar"></i>
+    <b>{{ category | first }} </b>
+  </div>
+  <div class="collapsible-body teal lighten-5">
+    <table class="daywise-list-container">
+
+    {% for posts in category %}
+      {% for post in posts %}
+      {% if post.content %}
+      <tr>
+          <td><li><b>{{ post.date | date: "%-d %B" }}</b></li></td>
+          <td>
+                {{ post.content | remove: '<p>' | remove: '</p>' }}
+          </td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </table>
+    </div>
+  </li>
+{% endfor %}
+</ul>

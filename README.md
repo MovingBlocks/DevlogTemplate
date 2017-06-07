@@ -30,6 +30,8 @@ Markdown format.
 
 ![Example screenshot of the Devlog.](./images/screenshot.png)
 
+> _Please find [posting examples](https://github.com/MovingBlocks/DevlogTemplate/tree/gh-pages/_posts) in the `_posts` directory of the `gh-pages` branch._
+
 To start blogging, just create a file for each entry in `_posts`. The filename
 should start with the date, e.g., `2017-07-01-first_entry.md`.
 The [Front Matter](https://jekyllrb.com/docs/frontmatter/) holds information on the category and date.

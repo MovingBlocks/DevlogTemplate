@@ -28,9 +28,11 @@ The devlog will show _progress entries_ grouped by _categories_.
 Each entry is prefixed with its posting date and can hold arbitrary content in
 Markdown format.
 
-![Example screenshot of the Devlog.](./images/screenshot.png)
-
+> Have a look at the [example instance](http://terasology.org/DevlogTemplate/) instance.
+>
 > _Please find [posting examples](https://github.com/MovingBlocks/DevlogTemplate/tree/gh-pages/_posts) in the `_posts` directory of the `gh-pages` branch._
+
+![Example screenshot of the Devlog.](./images/screenshot.png)
 
 To start blogging, just create a file for each entry in `_posts`. The filename
 should start with the date, e.g., `2017-07-01-first_entry.md`.

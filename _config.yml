@@ -31,4 +31,4 @@ gh_project: https://www.github.com/MovingBlocks/Terasology
 markdown: kramdown
 future: true
 encodig: utf-8
-highlighter: rogue
+highlighter: rouge

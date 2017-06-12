@@ -15,15 +15,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable  }}.
 
-name: ???
+name: Chetan Malhotra (student developer for CERN-HSF) 
 title: GSOC Devlog
-description: Tracking progress on ProjectX
+description: Tracking progress on: Visualization tools for Scikit-HEP project
 
-gh_name: ???
-gh_commits: https://www.github.com/MovingBlocks/Terasology/commits/?author=???
-gh_prs: https://github.com/MovingBlocks/Terasology/pulls?utf8=%E2%9C%93&q=is:pr+author:??
-gh_issues: https://github.com/MovingBlocks/Terasology/issues?utf8=%E2%9C%93&q=is:issue+author:???
-gh_project: https://www.github.com/MovingBlocks/Terasology
+gh_name: debuggermalhotra
+gh_commits: https://github.com/histogrammar/histogrammar-python/commits/?author=debuggermalhotra
+gh_prs: https://github.com/histogrammar/histogrammar-python/pulls?utf8=%E2%9C%93&q=is:pr+author:debuggermalhotra
+gh_issues: https://github.com/histogrammar/histogrammar-python/issues?utf8=%E2%9C%93&q=is:issue+author:debuggermalhotra
+gh_project: https://github.com/histogrammar/histogrammar-python
 
 # -------------------------------------
 # Build Settings
